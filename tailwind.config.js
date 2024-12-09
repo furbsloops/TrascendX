@@ -1,6 +1,6 @@
 export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx,html}", // Assicurati che il percorso corrisponda ai tuoi file di progetto
+    "./src/**/*.{js,jsx,ts,tsx,html}",
   ],
   theme: {
     extend: {
@@ -19,6 +19,5 @@ export default {
         'move-left': 'moveLeft 1s infinite alternate'
       }
     }
-  },
-  plugins: [], // Aggiungi qui eventuali plugins Tailwind che intendi utilizzare
+  }
 };
