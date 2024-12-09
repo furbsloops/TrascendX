@@ -8,7 +8,7 @@ const Gallery = () => {
   useEffect(() => {
     const fetchNFTs = async () => {
       try {
-        const response = await axios.get('https://c65c1eaf50f34b1e83ea01b163ca0711.trascendx.com/nfts', {
+        const response = await axios.get('https://c65c1eaf50f34b1e83ea01b163ca0711.trascendx.com', {
           headers: {
             Authorization: 'Bearer c65c1eaf50f34b1e83ea01b163ca0711'
           }
