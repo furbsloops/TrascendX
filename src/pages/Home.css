@@ -1,0 +1,114 @@
+.home-container {
+    width: 100vw;
+    overflow-x: hidden;
+    background: #f3f3f3; /* Colore di sfondo chiaro */
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-content {
+    padding-top: 4rem;
+  }
+  
+  /* Sezione media (immagine + video) */
+  .media-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .image-wrapper, .video-wrapper {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  /* Sezione intro */
+  .intro-section {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .intro-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .intro-section p {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .explore-button {
+    background: #0070f3;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .explore-button:hover {
+    background: #005bb5;
+  }
+  
+  /* Sezione NFT aggiuntivi */
+  .more-nfts-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .more-nfts-section h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .nft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 1rem;
+  }
+  
+  .nft-card {
+    background: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .nft-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .nft-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .nft-info {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .nft-info h5 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .nft-info p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  

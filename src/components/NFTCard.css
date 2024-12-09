@@ -1,0 +1,58 @@
+:root {
+    --card-bg: #fff;
+    --card-text: #333;
+    --accent-color: #0070f3;
+    --accent-color-hover: #005bb5;
+    --card-shadow: rgba(0,0,0,0.1);
+    --card-shadow-hover: rgba(0,0,0,0.2);
+  }
+  
+  .nft-card {
+    background: var(--card-bg);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px var(--card-shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    max-width: 250px;
+    margin: auto; /* Centra la card se necessario */
+  }
+  
+  .nft-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px var(--card-shadow-hover);
+  }
+  
+  .nft-card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .nft-card-content {
+    padding: 1rem;
+    color: var(--card-text);
+  }
+  
+  .nft-card-title {
+    margin: 0;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .nft-card-link {
+    display: inline-block;
+    background: var(--accent-color);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background 0.3s;
+    font-weight: bold;
+  }
+  
+  .nft-card-link:hover {
+    background: var(--accent-color-hover);
+  }
+  

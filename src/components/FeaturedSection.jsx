@@ -1,13 +1,24 @@
 import React from 'react';
+import './FeaturedSection.css'; // Assicurati di creare anche questo file
 
-const FeaturedSection = () => {
+const FeaturedSection = ({ nfts = [] }) => {
   return (
-    <div className="my-8">
-      <h2 className="text-3xl font-bold text-center">Featured NFTs</h2>
-      <div className="flex justify-around items-center mt-4">
-        {/* Add your content here */}
+    <section className="featured-section">
+      <h2 className="featured-title">Featured NFTs</h2>
+      <div className="featured-grid">
+        {nfts.length > 0 ? (
+          nfts.map((nft, index) => (
+            <div className="featured-card" key={index}>
+              <img src={nft.imageUrl} alt={nft.name} className="featured-image" />
+              <h3 className="featured-card-title">{nft.name}</h3>
+              <p className="featured-card-description">{nft.description}</p>
+            </div>
+          ))
+        ) : (
+          <p className="no-nfts">Nessun NFT disponibile al momento.</p>
+        )}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import './Gallery.css'; // Importa il tuo file CSS
 
 const Gallery = () => {
   const nfts = Array.from({ length: 120 }, (_, index) => ({
@@ -10,7 +11,7 @@ const Gallery = () => {
   }));
 
   return (
-    <div className="p-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4">
+    <div className="gallery-container">
       {nfts.map(nft => (
         <motion.div
           key={nft.id}
@@ -18,17 +19,17 @@ const Gallery = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="overflow-hidden shadow-lg rounded-lg cursor-pointer"
+          className="nft-card"
         >
-          <img src={nft.imageUrl} alt={nft.name} className="w-full h-auto"/>
-          <div className="p-4 bg-gray-900 text-white">
-            <h5 className="text-lg font-bold">{nft.name}</h5>
+          <img src={nft.imageUrl} alt={nft.name} className="nft-image"/>
+          <div className="nft-info">
+            <h5>{nft.name}</h5>
             <p>{nft.description}</p>
           </div>
         </motion.div>
       ))}
     </div>
   );
-}
+};
 
 export default Gallery;

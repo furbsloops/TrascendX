@@ -1,0 +1,28 @@
+:root {
+    --footer-bg: #000;
+    --footer-text-color: #fff;
+    --footer-link-color: #1da1f2; /* blu chiaro stile link */
+    --footer-link-hover: #0d8ae3;
+  }
+  
+  .footer {
+    background: var(--footer-bg);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .footer-text {
+    margin: 0 0 0.5rem;
+  }
+  
+  .footer-link {
+    color: var(--footer-link-color);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-link:hover {
+    color: var(--footer-link-hover);
+  }
+  

@@ -1,0 +1,117 @@
+:root {
+    --bg-color: #f3f3f3;
+    --text-color: #333;
+    --primary-color: #0070f3;
+    --primary-color-hover: #005bb5;
+    --input-border: #ccc;
+    --input-focus-border: #0070f3;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-container {
+    padding: 2rem;
+    background: var(--bg-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .contact-content {
+    margin-top: 2rem;
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .opensea-section {
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .opensea-section p {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  
+  .opensea-button {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s;
+    font-weight: bold;
+  }
+  
+  .opensea-button:hover {
+    background: var(--primary-color-hover);
+  }
+  
+  .contact-form {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--input-border);
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: var(--input-focus-border);
+  }
+  
+  .submit-button {
+    width: 100%;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: bold;
+  }
+  
+  .submit-button:hover {
+    background: var(--primary-color-hover);
+  }
+  

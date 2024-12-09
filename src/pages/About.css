@@ -1,0 +1,100 @@
+:root {
+    --background-color: #f3f3f3;
+    --text-color: #333;
+    --title-color: #222;
+    --accent-color: #0070f3;
+    --max-width: 1200px;
+    --heading-font: Arial, sans-serif;
+    --body-font: Arial, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenitore principale */
+  .about-container {
+    min-height: 100vh;
+    background: var(--background-color);
+    padding: 2rem;
+    overflow: auto;
+  }
+  
+  .about-content {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  /* Titolo principale */
+  .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Descrizione */
+  .about-description {
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--text-color);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Sezione immagine */
+  .about-image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Missione */
+  .about-mission, .about-why-choose {
+    text-align: center;
+  }
+  
+  .about-section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--title-color);
+    margin-bottom: 1rem;
+  }
+  
+  /* Testo missione */
+  .about-text {
+    font-size: 1rem;
+    color: var(--text-color);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Perché scegliere Trascendx */
+  .about-list {
+    list-style-type: disc;
+    text-align: left;
+    font-size: 1rem;
+    color: var(--text-color);
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    line-height: 1.6;
+  }
+  
+  .about-list li {
+    margin-bottom: 1rem;
+  }
+  

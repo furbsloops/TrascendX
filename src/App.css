@@ -1,45 +1,48 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+:root {
+  --primary-color: #0ff; /* Ciano neon */
+  --bg-color: #000;
+  --text-color: #fff;
+  --accent-color: #f0f; /* Magenta neon */
+}
+
+body {
+  margin: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.nft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.nft-card {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 10px;
   text-align: center;
+  padding: 10px;
+  transition: transform 0.2s;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.nft-card:hover {
+  transform: scale(1.05);
+  border-color: var(--accent-color);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nft-image {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+a {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
-.card {
-  padding: 2em;
+a:hover {
+  text-decoration: underline;
 }
-
-.read-the-docs {
-  color: #888;
-}
-
-
-
