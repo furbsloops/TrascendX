@@ -4,11 +4,12 @@ import { motion } from 'framer-motion';
 
 const Gallery = () => {
   const [nfts, setNfts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchNFTs = async () => {
       try {
-        // Modifica con il tuo endpoint API effettivo
         const response = await axios.get('https://api.opensea.io/api/v1/assets', {
           params: {
             owner: '0xFeFbd651De672716Da4e9bf90726249151DEdd09', // Sostituisci con l'indirizzo wallet reale
@@ -20,13 +21,19 @@ const Gallery = () => {
           }
         });
         setNfts(response.data.assets);
+        setLoading(false);
       } catch (error) {
         console.error('Error fetching NFTs:', error);
+        setError(error);
+        setLoading(false);
       }
     };
 
     fetchNFTs();
   }, []);
+
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error fetching NFTs: {error.message}</div>;
 
   return (
     <div className="p-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4">
