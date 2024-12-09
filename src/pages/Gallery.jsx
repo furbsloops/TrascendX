@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { motion } from 'framer-motion';
-import './Gallery.css'; // Il tuo file CSS
+import './Gallery.css';
 
 const Gallery = () => {
   const [nfts, setNfts] = useState([]);
@@ -9,15 +9,16 @@ const Gallery = () => {
   useEffect(() => {
     axios.get('https://api.opensea.io/v2/collection/trascendx/nfts', {
       params: {
-        limit: 20 // numero di NFT da mostrare
+        limit: 20,
+        include_metadata: 'true' // Aggiunto il parametro per includere i metadati
       },
       headers: {
-        'X-API-KEY': 'c65c1eaf50f34b1e83ea01b163ca0711' // Sostituisci con una API Key valida
+        'X-API-KEY': 'c65c1eaf50f34b1e83ea01b163ca0711' // Sostituisci con la tua API Key valida
       }
     })
     .then(response => {
-      // La risposta ha la forma { next, previous, nfts: [...] }
       const fetchedNFTs = response.data.nfts || [];
+      console.log('NFTs fetched:', fetchedNFTs); // Debug per vedere i dati reali
       setNfts(fetchedNFTs);
     })
     .catch(error => {
@@ -36,8 +37,11 @@ const Gallery = () => {
           transition={{ duration: 0.5 }}
           className="nft-card"
         >
-          {/* Le informazioni dell'NFT in v2 si trovano in nft.metadata */}
-          <img src={nft.metadata?.image} alt={nft.metadata?.name} className="nft-image"/>
+          <img 
+            src={nft.metadata?.image || 'placeholder.png'} 
+            alt={nft.metadata?.name || 'NFT senza nome'} 
+            className="nft-image"
+          />
           <div className="nft-info">
             <h5>{nft.metadata?.name || 'Senza nome'}</h5>
             <p>{nft.metadata?.description || 'Nessuna descrizione'}</p>
