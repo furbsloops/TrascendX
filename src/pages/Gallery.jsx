@@ -1,39 +1,24 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import { motion } from 'framer-motion';
 import './Gallery.css';
 
+const staticNfts = [
+  {
+    id: 3,
+    name: "Trascendx #3",
+    description: "#0003",
+    imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000"
+  },
+  // Aggiungi altri NFT manualmente
+];
+
 const Gallery = () => {
-  const [nfts, setNfts] = useState([]);
-
-  useEffect(() => {
-    axios.get('https://api.opensea.io/api/v1/assets', {
-      params: {
-        collection: 'trascendx', // Slug della tua collezione su OpenSea
-        order_direction: 'desc',
-        limit: 20,
-        include_orders: false
-      },
-      headers: {
-        'X-API-KEY': 'c65c1eaf50f34b1e83ea01b163ca0711' // Sostituisci con la tua API Key valida
-      }
-    })
-    .then(response => {
-      const fetchedNFTs = response.data.assets || [];
-      console.log('Fetched NFTs:', fetchedNFTs);
-      setNfts(fetchedNFTs);
-    })
-    .catch(error => {
-      console.error('Errore nel fetch degli NFT da OpenSea:', error);
-    });
-  }, []);
-
   return (
     <div className="gallery-container">
-      {nfts.length > 0 ? (
-        nfts.map((nft, index) => (
+      {staticNfts.length > 0 ? (
+        staticNfts.map((nft) => (
           <motion.div
-            key={index}
+            key={nft.id}
             whileHover={{ scale: 1.05 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -41,12 +26,12 @@ const Gallery = () => {
             className="nft-card"
           >
             <img 
-              src={nft.image_url || 'placeholder.png'} 
-              alt={nft.name || `NFT #${nft.token_id}`} 
+              src={nft.imageUrl || 'placeholder.png'} 
+              alt={nft.name || `NFT #${nft.id}`} 
               className="nft-image"
             />
             <div className="nft-info">
-              <h5>{nft.name || `NFT #${nft.token_id}`}</h5>
+              <h5>{nft.name || `NFT #${nft.id}`}</h5>
               <p>{nft.description || 'Nessuna descrizione'}</p>
             </div>
           </motion.div>
