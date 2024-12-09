@@ -10,7 +10,7 @@ const Gallery = () => {
     // Endpoint per un singolo asset su OpenSea v1
     axios.get('https://api.opensea.io/api/v1/asset/0x55ca8C033F230Ef9dd09412784948a9D4734DccF/1/', {
       headers: {
-        'X-API-KEY': 'LA_TUA_API_KEY' // Inserisci qui la tua API KEY
+        'X-API-KEY': 'c65c1eaf50f34b1e83ea01b163ca0711' // Inserisci qui la tua API KEY
       }
     })
     .then(response => {
