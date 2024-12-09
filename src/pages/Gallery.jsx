@@ -8,11 +8,11 @@ const Gallery = () => {
   useEffect(() => {
     const fetchNFTs = async () => {
       try {
-        const response = await axios.get('https://api.trascendx.com/nfts', {
-            headers: {
-              Authorization: 'Bearer c65c1eaf50f34b1e83ea01b163ca0711'
-            }
-          });
+        const response = await axios.get('https://api.tuoDominio.com/nfts', {
+          headers: {
+            Authorization: 'Bearer tuaAPIKey'
+          }
+        });
         setNfts(response.data);
       } catch (error) {
         console.error('Error fetching NFTs:', error);
