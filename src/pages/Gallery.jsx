@@ -9,13 +9,13 @@ const Gallery = () => {
   useEffect(() => {
     axios.get('https://api.opensea.io/api/v1/assets', {
       params: {
-        asset_contract_address: '0x55ca8C033F230Ef9dd09412784948a9D4734DccF',
+        collection: 'trascendx', // Slug della tua collezione su OpenSea
         order_direction: 'desc',
         limit: 20,
         include_orders: false
       },
       headers: {
-        'X-API-KEY': 'LA_TUA_API_KEY'
+        'X-API-KEY': 'c65c1eaf50f34b1e83ea01b163ca0711' // Sostituisci con la tua API Key valida
       }
     })
     .then(response => {
@@ -23,7 +23,9 @@ const Gallery = () => {
       console.log('Fetched NFTs:', fetchedNFTs);
       setNfts(fetchedNFTs);
     })
-    .catch(error => console.error('Errore nel fetch degli NFT:', error));
+    .catch(error => {
+      console.error('Errore nel fetch degli NFT da OpenSea:', error);
+    });
   }, []);
 
   return (
