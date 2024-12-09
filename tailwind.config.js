@@ -1,6 +1,6 @@
 export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx,html}",
+    "./src/**/*.{js,jsx,ts,tsx,html}", // Assicurati che il percorso corrisponda ai tuoi file di progetto
   ],
   theme: {
     extend: {

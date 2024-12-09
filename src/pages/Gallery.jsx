@@ -8,12 +8,12 @@ const Gallery = () => {
   useEffect(() => {
     const fetchNFTs = async () => {
       try {
-        const response = await axios.get('https://api.tuoDominio.com/nfts', {
+        const response = await axios.get('https://api.yourdomain.com/nfts', {
           headers: {
-            Authorization: 'Bearer tuaAPIKey'
+            Authorization: 'Bearer YOUR_API_KEY'  // Sostituisci 'YOUR_API_KEY' con la tua chiave API effettiva
           }
         });
-        setNfts(response.data);
+        setNfts(response.data);  // Assumi che la risposta sia un array di oggetti NFT
       } catch (error) {
         console.error('Error fetching NFTs:', error);
       }
@@ -33,7 +33,7 @@ const Gallery = () => {
           transition={{ duration: 0.5 }}
           className="overflow-hidden shadow-lg rounded-lg cursor-pointer"
         >
-          <img src={nft.image_url} alt={nft.name} className="w-full h-auto"/>
+          <img src={nft.imageUrl} alt={nft.name} className="w-full h-auto"/>
           <div className="p-4 bg-gray-900 text-white">
             <h5 className="text-lg font-bold">{nft.name}</h5>
             <p>{nft.description}</p>
@@ -42,6 +42,6 @@ const Gallery = () => {
       ))}
     </div>
   );
-};
+}
 
 export default Gallery;
