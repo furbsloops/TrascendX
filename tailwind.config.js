@@ -19,5 +19,6 @@ export default {
         'move-left': 'moveLeft 1s infinite alternate'
       }
     }
-  }
+  },
+  plugins: [], // Aggiungi qui eventuali plugins Tailwind che intendi utilizzare
 };
