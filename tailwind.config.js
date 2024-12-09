@@ -1,23 +1,21 @@
-export default {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx,html}", // Assicurati che il percorso corrisponda ai tuoi file di progetto
-  ],
+module.exports = {
   theme: {
     extend: {
       keyframes: {
-        moveRight: {
-          'from': { transform: 'translateX(0)' },
-          'to': { transform: 'translateX(100px)' },
+        slideRightToLeft: {
+          '0%, 100%': { transform: 'translateX(0%)' },
+          '50%': { transform: 'translateX(-100%)' }
         },
-        moveLeft: {
-          'from': { transform: 'translateX(0)' },
-          'to': { transform: 'translateX(-100px)' },
+        slideLeftToRight: {
+          '0%, 100%': { transform: 'translateX(0%)' },
+          '50%': { transform: 'translateX(100%)' }
         }
       },
       animation: {
-        'move-right': 'moveRight 1s infinite alternate',
-        'move-left': 'moveLeft 1s infinite alternate'
+        'right-to-left': 'slideRightToLeft 10s infinite linear',
+        'left-to-right': 'slideLeftToRight 10s infinite linear'
       }
     }
-  }
-};
+  },
+  plugins: [],
+}
