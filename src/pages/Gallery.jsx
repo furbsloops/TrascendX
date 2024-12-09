@@ -1,26 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import { motion } from 'framer-motion';
 
 const Gallery = () => {
-  const [nfts, setNfts] = useState([]);
-
-  useEffect(() => {
-    const fetchNFTs = async () => {
-      try {
-        const response = await axios.get('https://api.yourdomain.com/nfts', {
-          headers: {
-            Authorization: 'Bearer YOUR_API_KEY'  // Sostituisci 'YOUR_API_KEY' con la tua chiave API effettiva
-          }
-        });
-        setNfts(response.data);  // Assumi che la risposta sia un array di oggetti NFT
-      } catch (error) {
-        console.error('Error fetching NFTs:', error);
-      }
-    };
-
-    fetchNFTs();
-  }, []);
+  const nfts = Array.from({ length: 120 }, (_, index) => ({
+    id: index,
+    name: `NFT ${index + 1}`,
+    description: 'This is a placeholder NFT.',
+    imageUrl: `https://picsum.photos/seed/${index}/200`
+  }));
 
   return (
     <div className="p-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4">
