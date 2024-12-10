@@ -150,13 +150,15 @@ const Home = () => {
         </div>
 
         <div className="intro-section">
-          <h2>Scopri l'Arte Digitale Unica</h2>
-          <p>Esplora la nostra esclusiva collezione di NFT su OpenSea</p>
+          <h2>Utopia is an illusion</h2>
+          <p>Welcome to the beating heart of the future:
+            a window into alternate worlds, where mystery surrounds every pixel.
+The future is just a vision coming true</p>
           <a
             href="https://opensea.io/collection/yourcollection"
             className="explore-button"
           >
-            Esplora Ora
+            Explore Now
           </a>
         </div>
 
