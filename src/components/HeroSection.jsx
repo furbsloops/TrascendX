@@ -1,5 +1,5 @@
 import React from 'react';
-import heroBg from '../assets/TrascendXDS.png';
+import heroBg from '../assets/TrascendXDSWall.png';
 import './HeroSection.css'; // Importa il file CSS
 
 const HeroSection = () => {
