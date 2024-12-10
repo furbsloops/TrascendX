@@ -11,7 +11,7 @@ const Footer = () => {
         rel="noopener noreferrer"
         className="footer-link"
       >
-        Collezione Trascendx su OpenSea
+        TrascendX on OpenSea
       </a>
     </footer>
   );

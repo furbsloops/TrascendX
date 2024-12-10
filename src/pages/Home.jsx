@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import HeroSection from '../components/HeroSection';
 import FeaturedSection from '../components/FeaturedSection';
 import './Home.css'; // Importa il tuo file CSS personalizzato
+
 
 // Array di 20 NFT statici (esempio)
 const staticNfts = [
@@ -128,8 +129,20 @@ const staticNfts = [
 ];
 
 const Home = () => {
-  // Non facciamo più fetch, utilizziamo direttamente staticNfts
+    const [currentIndex, setCurrentIndex] = useState(0); // Aggiungi questo stato per gestire l'indice corrente
+    const [reverseIndex, setReverseIndex] = useState(staticNfts.length - 1); // Aggiungi questo stato per gestire l'indice inverso
   const nfts = staticNfts;
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % nfts.length); // Incrementa l'indice
+      setReverseIndex((prevIndex) => (prevIndex - 1 + nfts.length) % nfts.length); // Decrementa l'indice, loop alla fine dell'array
+    }, 1000); // Cambia immagine ogni secondo
+
+    return () => {
+      clearInterval(intervalId); // Pulisce l'intervallo
+    };
+  }, [nfts.length]);
 
   return (
     <div className="home-container">
@@ -137,27 +150,18 @@ const Home = () => {
         <HeroSection />
 
         <div className="media-section">
-  <div className="image-wrapper">
-    <img src="https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png" alt="Unique Art" className="media-image" />
-  </div>
-  <div className="video-wrapper video-square">
-    <video width="100%" height="100%" controls>
-      <source src="../assets/TrascendXShort.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
-
+          <div className="image-wrapper">
+            <img src={nfts[currentIndex].imageUrl} alt={nfts[currentIndex].name} className="media-image" />
+          </div>
+          <div className="image-wrapper video-square">
+            <img src={nfts[reverseIndex].imageUrl} alt={nfts[reverseIndex].name} className="media-image" />
+          </div>
+        </div>
 
         <div className="intro-section">
           <h2>Utopia is an illusion</h2>
-          <p>Welcome to the beating heart of the future:
-            a window into alternate worlds, where mystery surrounds every pixel.
-The future is just a vision coming true</p>
-          <a
-            href="https://opensea.io/collection/yourcollection"
-            className="explore-button"
-          >
+          <p>Welcome to the beating heart of the future: a window into alternate worlds, where mystery surrounds every pixel. The future is just a vision coming true.</p>
+          <a href="https://opensea.io/collection/yourcollection" className="explore-button">
             Explore Now
           </a>
         </div>

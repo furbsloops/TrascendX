@@ -1,114 +1,191 @@
 .home-container {
-    width: 100vw;
-    overflow-x: hidden;
-    background: #f3f3f3; /* Colore di sfondo chiaro */
-    color: #333;
-    font-family: Arial, sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+  background: #f3f3f3; /* Colore di sfondo chiaro */
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.home-content {
+  padding-top: 4rem;
+}
+
+/* Sezione media (immagine + video) */
+.media-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.image-wrapper,
+.video-wrapper {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Sezione intro */
+.intro-section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.intro-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.intro-section p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.explore-button {
+  background: #0070f3;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.explore-button:hover {
+  background: #005bb5;
+}
+
+/* Sezione NFT aggiuntivi */
+.more-nfts-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.more-nfts-section h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.nft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.nft-card {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nft-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nft-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nft-info {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.nft-info h5 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.nft-info p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.media-section .image-wrapper {
+  width: 30rem; /* o la larghezza desiderata */
+  height: 30rem; /* o l'altezza desiderata, qui assicurati che sia quadrato se vuoi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Nasconde qualsiasi parte dell'immagine che eccede il contenitore */
+}
+
+.media-section .image-wrapper .media-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Assicura che l'immagine copra l'intera area senza distorcere le proporzioni */
+}
+
+:root {
+    /* Definizione dei colori principali ispirati dall'immagine */
+    --primary-color: #0ff; /* Ciano neon */
+    --secondary-color: #f0f; /* Magenta neon */
+    --background-color: #000; /* Nero */
+    --text-color: #fff; /* Bianco */
   }
   
-  .home-content {
-    padding-top: 4rem;
-  }
-  
-  /* Sezione media (immagine + video) */
-  .media-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-  }
-  
-  .image-wrapper, .video-wrapper {
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  /* Sezione intro */
-  .intro-section {
-    text-align: center;
-    padding: 2rem 1rem;
-  }
-  
-  .intro-section h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  .intro-section p {
-    font-size: 1.25rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .explore-button {
-    background: #0070f3;
-    color: #fff;
-    font-weight: bold;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    transition: background 0.3s;
-  }
-  
-  .explore-button:hover {
-    background: #005bb5;
-  }
-  
-  /* Sezione NFT aggiuntivi */
-  .more-nfts-section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-  }
-  
-  .more-nfts-section h3 {
-    font-size: 1.75rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-  
-  .nft-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-    gap: 1rem;
-  }
-  
-  .nft-card {
-    background: #fff;
-    border-radius: 0.5rem;
-    overflow: hidden;
-    transition: transform 0.2s, box-shadow 0.2s;
-    cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  .nft-card:hover {
-    transform: scale(1.02);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
-  
-  .nft-image {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .nft-info {
-    background: #333;
-    color: #fff;
-    padding: 1rem;
-  }
-  
-  .nft-info h5 {
+  body {
     margin: 0;
-    font-size: 1.25rem;
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
   }
   
-  .nft-info p {
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
   }
+  
+  /* Stile per il mosaico dinamico */
+  .dynamic-mosaic {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, var(--primary-color) 25%, transparent 25%, transparent 75%, var(--primary-color) 75%, var(--primary-color)), 
+                      linear-gradient(45deg, var(--primary-color) 25%, var(--secondary-color) 25%, var(--secondary-color) 75%, var(--primary-color) 75%, var(--primary-color));
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    animation: moveMosaic 4s linear infinite;
+  }
+  
+  /* Animazione per il mosaico */
+  @keyframes moveMosaic {
+    0% {
+      background-position: 0 0, 30px 30px;
+    }
+    100% {
+      background-position: 60px 60px, 90px 90px;
+    }
+  }
+  
+  /* Stile per il testo e i link */
+  .text {
+    font-size: 2rem;
+    padding: 20px;
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
   
