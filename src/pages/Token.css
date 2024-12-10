@@ -23,12 +23,21 @@
 .token-title {
   font-size: 3rem;
   color: var(--token-text);
+  margin-bottom: 1rem;
 }
 
-.token-description {
+.token-description,
+.token-additional-description {
   font-size: 1.25rem;
   color: var(--token-text);
   line-height: 1.5;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.token-additional-description {
+  font-style: italic;
+  color: #555;
 }
 
 .token-image-wrapper {
@@ -40,6 +49,11 @@
   max-width: 300px;
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.token-image:hover {
+  transform: scale(1.05);
 }
 
 .token-info {
@@ -52,6 +66,7 @@
 .token-info h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .token-info ul {
