@@ -139,7 +139,7 @@ const Home = () => {
 
         <div className="media-section">
           <div className="image-wrapper">
-            <img src="path_to_your_image.jpg" alt="Unique Art" className="media-image" />
+            <img src="https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png" alt="Unique Art" className="media-image" />
           </div>
           <div className="video-wrapper">
             <video width="100%" controls>

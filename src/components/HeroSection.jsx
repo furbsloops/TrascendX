@@ -17,7 +17,7 @@ const HeroSection = () => {
           rel="noopener noreferrer"
           className="hero-button"
         >
-          Esplora Ora
+          Explore Now
         </a>
       </div>
     </div>
