@@ -10,10 +10,9 @@ const About = () => {
 
         {/* Descrizione */}
         <p className="about-description">
-          Trascendx è una visione futuristica del mondo dell'arte digitale. 
-          Combiniamo tecnologia avanzata e design unico per creare pezzi 
-          collezionabili che spingono i confini della creatività. I nostri NFT 
-          rappresentano il culmine dell'innovazione e della bellezza artistica.
+        Welcome to the beating heart of the future: 
+        a window into alternate worlds, where mystery surrounds every pixel. 
+        The future is just a vision coming true
         </p>
 
         {/* Immagine NFT #1 */}
@@ -28,24 +27,25 @@ const About = () => {
         {/* Missione */}
         <div className="about-mission">
           <h2 className="about-section-title">
-            La nostra missione
+          The future starts with us
           </h2>
           <p className="about-text">
-            Con Trascendx, miriamo a ridefinire il concetto di arte digitale, offrendo 
-            a collezionisti e appassionati opere che non solo ispirano, ma aprono nuove 
-            possibilità nel mondo del metaverso e della blockchain.
+          A series of NFT artworks where futurism meets graphic innovation. 
+          Crafted using advanced generative models, these pioneering creations set a new standard in the digital collection realm. 
+          Each piece is a hidden secret, a vision of the future transformed into art.
           </p>
         </div>
 
         {/* Perché scegliere Trascendx */}
         <div className="about-why-choose">
           <h2 className="about-section-title">
-            Perché scegliere Trascendx?
+          Why Explore TrascendX?
           </h2>
           <ul className="about-list">
-            <li>Opere d'arte uniche e limitate, garantite dalla tecnologia blockchain.</li>
-            <li>Una comunità in crescita di artisti e collezionisti che condividono la passione per l'innovazione.</li>
-            <li>Un team dedicato a spingere i confini dell'arte digitale.</li>
+          <li>Artworks encrypted within blockchain's immutable realms.</li>
+      <li>A visionary community pioneering digital frontiers.</li>
+      <li>A dedicated team pushing the limits of digital artistry.</li>
+      <li>Exclusive community token</li>
           </ul>
         </div>
       </div>
