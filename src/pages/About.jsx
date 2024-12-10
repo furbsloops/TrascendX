@@ -16,11 +16,11 @@ const About = () => {
           rappresentano il culmine dell'innovazione e della bellezza artistica.
         </p>
 
-        {/* Immagine */}
+        {/* Immagine NFT #1 */}
         <div className="about-image-wrapper">
           <img 
-            src="https://via.placeholder.com/600" 
-            alt="About Trascendx" 
+            src="https://i.seadn.io/s/raw/files/83ef83dd7aa4caac87054e85484a47a5.png?auto=format&dpr=1&w=1000" 
+            alt="NFT #1"
             className="about-image"
           />
         </div>

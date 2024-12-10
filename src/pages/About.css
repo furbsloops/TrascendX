@@ -98,3 +98,20 @@
     margin-bottom: 1rem;
   }
   
+  .about-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .about-image {
+    max-width: 600px;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s; /* Aggiunta transizione */
+  }
+  
+  .about-image:hover {
+    transform: scale(1.05); /* Effetto hover */
+  }
+  
