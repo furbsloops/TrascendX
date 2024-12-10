@@ -13,7 +13,7 @@ const HeroSection = () => {
 
       <div className="hero-content">
         <h1 className="hero-title">TrascendX Collection</h1>
-        <p className="hero-subtitle">Echoes of an unknown tomorrow. Visions beyond the visible.</p>
+        <p className="hero-subtitle">Echoes of an unknown tomorrow. <br/>Visions beyond the visible.</p>
         <a 
           href="https://opensea.io/collection/trascendx" 
           target="_blank" 
