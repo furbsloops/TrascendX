@@ -8,7 +8,7 @@ const Token = () => {
         <h1 className="token-title">TRSCX Token</h1>
         
         <p className="token-description">
-        The Transcendx Token is the our community digital currency. <br/>
+        The TranscendX Token is the our community digital currency. <br/>
         It was designed to support the Flow ecosystem <br/> and enhance the TrascendX collection
         </p>
 

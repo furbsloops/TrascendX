@@ -27,12 +27,12 @@ const About = () => {
         {/* Missione */}
         <div className="about-mission">
           <h2 className="about-section-title">
-          The future starts with us
+          The future <br/> starts from us
           </h2>
           <p className="about-text">
-          A series of NFT artworks where futurism meets graphic innovation. 
-          Crafted using advanced generative models, these pioneering creations set a new standard in the digital collection realm. 
-          Each piece is a hidden secret, a vision of the future transformed into art.
+          A series of NFT artworks <br/> where futurism <br/> meets graphic innovation. 
+          Crafted using advanced generative models, these pioneering creations <br/> set a new standard <br/> in the digital collection realm. <br/>  
+          Each piece is a hidden secret, <br/> a vision of the future <br/> transformed into art.
           </p>
         </div>
 
