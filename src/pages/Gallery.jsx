@@ -869,14 +869,13 @@ const Gallery = () => {
             />
             <div className="nft-info">
               <h5>{nft.name || `NFT #${nft.id}`}</h5>
-              <p>{nft.description || 'Nessuna descrizione'}</p>
               <a
                 href={nft.openseaUrl || '#'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="nft-link"
               >
-                Vedi su OpenSea
+                OpenSea
               </a>
             </div>
           </motion.div>

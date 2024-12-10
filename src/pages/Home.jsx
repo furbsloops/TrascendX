@@ -166,7 +166,7 @@ The future is just a vision coming true</p>
         <FeaturedSection nfts={nfts.slice(0, 10)} />
 
         <div className="more-nfts-section">
-          <h3>Scopri altri NFT</h3>
+          <h3>More Exclusives Artworks</h3>
           <div className="nft-grid">
             {/* Mostra tutti i 20 NFT nella griglia sottostante */}
             {nfts.map(nft => (
@@ -179,7 +179,6 @@ The future is just a vision coming true</p>
                 <div className="nft-info">
                   <h5>{nft.name}</h5>
                   {/* Puoi aggiungere una descrizione statica o lasciarla vuota */}
-                  <p>{nft.description || 'Nessuna descrizione'}</p>
                   <a
                     href={nft.openseaUrl}
                     target="_blank"
