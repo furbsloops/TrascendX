@@ -185,7 +185,7 @@ The future is just a vision coming true</p>
                     rel="noopener noreferrer"
                     className="nft-link"
                   >
-                    Vedi su OpenSea
+                    OpenSea
                   </a>
                 </div>
               </div>
