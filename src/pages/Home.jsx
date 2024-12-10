@@ -137,16 +137,17 @@ const Home = () => {
         <HeroSection />
 
         <div className="media-section">
-          <div className="image-wrapper">
-            <img src="https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png" alt="Unique Art" className="media-image" />
-          </div>
-          <div className="video-wrapper">
-            <video width="100%" controls>
-              <source src="../assets/TrascendXShort.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
+  <div className="image-wrapper">
+    <img src="https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png" alt="Unique Art" className="media-image" />
+  </div>
+  <div className="video-wrapper video-square">
+    <video width="100%" height="100%" controls>
+      <source src="../assets/TrascendXShort.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
 
         <div className="intro-section">
           <h2>Utopia is an illusion</h2>
