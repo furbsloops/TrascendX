@@ -33,12 +33,22 @@ a {
   transition: color 0.3s ease-in-out;
 }
 
+
 a:hover {
   color: var(--hover-link-color);
 }
 
+p {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease-in-out;
+  font-family: fantasy;
+}
+
 h1, h2, h3, h4 {
   line-height: 1.1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -80,3 +90,4 @@ button:focus, button:focus-visible {
     background-color: var(--button-bg);
   }
 }
+

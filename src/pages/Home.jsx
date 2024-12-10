@@ -160,7 +160,7 @@ const Home = () => {
 
         <div className="intro-section">
           <h2>Utopia is an illusion</h2>
-          <p>Welcome to the beating heart of the future: a window into alternate worlds, where mystery surrounds every pixel. The future is just a vision coming true.</p>
+          <p>Welcome to the beating heart of the future: <br/> a window into alternate worlds, where mystery surrounds every pixel. <br/> The future is just a vision coming true.</p>
           <a href="https://opensea.io/collection/yourcollection" className="explore-button">
             Explore Now
           </a>

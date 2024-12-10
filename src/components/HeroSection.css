@@ -1,10 +1,5 @@
-:root {
-    --hero-text-color: #fff;
-    --hero-button-bg: #0070f3;
-    --hero-button-bg-hover: #005bb5;
-  }
-  
-  .hero-background {
+.hero-background {
+    position: relative; /* Posizionamento relativo per il contenitore */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,22 +9,34 @@
     align-items: center;
     text-align: center;
     min-height: 40vh;
-    /* Se vuoi un overlay scuro sull'immagine, puoi usare:
-    background-color: rgba(0,0,0,0.5);
-    background-blend-mode: darken;
-    */
+  }
+  
+  .hero-overlay {
+    position: absolute; /* Posiziona l'overlay sopra l'immagine di sfondo */
+    top: 50%; /* Posiziona verticalmente al centro */
+    left: 50%; /* Posiziona orizzontalmente al centro */
+    transform: translate(-50%, -50%); /* Centratura perfetta */
+    width: 90%; /* Larghezza relativa al contenitore */
+    max-width: 50rem; /* Larghezza massima */
+    height: 80%; /* Altezza relativa al contenitore */
+    background-color: rgba(0, 0, 0, 0.5); /* Filtro grigio scuro semi-trasparente */
+    border-radius: 10px; /* Aggiunge angoli arrotondati */
+    z-index: 1; /* Assicurati che sia sotto il contenuto ma sopra lo sfondo */
   }
   
   .hero-content {
+    position: relative; /* Assicurati che il contenuto sia sopra l'overlay */
+    z-index: 2; /* Porta il contenuto sopra l'overlay */
     max-width: 800px;
     margin: 0 auto;
   }
   
   .hero-title {
     font-size: 3rem;
-    color: var(--hero-text-color);
+    color: rgb(249, 249, 21);
     font-weight: bold;
     margin: 0 0 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .hero-subtitle {
@@ -47,9 +54,12 @@
     border-radius: 0.5rem;
     text-decoration: none;
     transition: background 0.3s;
+    background-color: black;
   }
   
   .hero-button:hover {
     background: var(--hero-button-bg-hover);
+    color: yellow;
+    
   }
   

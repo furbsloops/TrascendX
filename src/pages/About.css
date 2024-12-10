@@ -115,3 +115,31 @@
     transform: scale(1.05); /* Effetto hover */
   }
   
+  .about-description {
+    font-size: 1.25rem;
+    text-align: center;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.about-text {
+    font-size: 1rem;
+    color: black;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.about-list {
+    list-style-type: disc;
+    text-align: left;
+    font-size: 1rem;
+    color: black;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    line-height: 1.6;
+}
+

@@ -8,6 +8,9 @@ const HeroSection = () => {
       className="hero-background"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
+      {/* Overlay per il filtro grigio */}
+      <div className="hero-overlay"></div>
+
       <div className="hero-content">
         <h1 className="hero-title">TrascendX Collection</h1>
         <p className="hero-subtitle">Echoes of an unknown tomorrow. Visions beyond the visible.</p>

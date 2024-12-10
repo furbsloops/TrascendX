@@ -8,9 +8,8 @@ const Token = () => {
         <h1 className="token-title">TRSCX Token</h1>
         
         <p className="token-description">
-        The Transcendx Token is the native digital currency of our NFT ecosystem. 
-        It was designed to support the Flow ecosystem and enhance the TrascendX collection 
-        with an exclusive community currency.
+        The Transcendx Token is the our community digital currency. <br/>
+        It was designed to support the Flow ecosystem <br/> and enhance the TrascendX collection
         </p>
 
         <p className="token-additional-description">
@@ -48,7 +47,7 @@ const Token = () => {
             rel="noopener noreferrer"
             className="token-link"
           >
-            Explore TRSCX on PumpFlow
+            TRSCX Token
           </a>
         </div>
       </div>

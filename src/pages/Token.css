@@ -85,7 +85,7 @@
 
 .token-link {
   display: inline-block;
-  background: var(--accent-color);
+  background: black;
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
@@ -95,5 +95,9 @@
 }
 
 .token-link:hover {
-  background: var(--accent-color-hover);
+  background: grey;
+  opacity: 2;
+  color: orange;
 }
+
+ 
