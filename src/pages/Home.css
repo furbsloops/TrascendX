@@ -190,3 +190,9 @@
   .explore-button {
     background-color: black;
   }
+
+ .explore-button:hover {
+    background-color: grey;
+    color: yellow;
+    opacity: 222;
+  }
