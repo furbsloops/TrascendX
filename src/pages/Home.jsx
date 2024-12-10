@@ -1,7 +1,6 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
 import FeaturedSection from '../components/FeaturedSection';
-import Footer from '../components/Footer';
 import './Home.css'; // Importa il tuo file CSS personalizzato
 
 // Array di 20 NFT statici (esempio)
@@ -143,7 +142,7 @@ const Home = () => {
           </div>
           <div className="video-wrapper">
             <video width="100%" controls>
-              <source src="path_to_your_video.mp4" type="video/mp4" />
+              <source src="../assets/TrascendXShort.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
