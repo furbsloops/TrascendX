@@ -5,12 +5,11 @@ const Token = () => {
   return (
     <div className="token-container">
       <div className="token-content">
-        <h1 className="token-title">Trascendx Token</h1>
+        <h1 className="token-title">TRSCX Token</h1>
         
         <p className="token-description">
-          Il Trascendx Token è la moneta digitale nativa del nostro ecosistema NFT. 
-          È stato pensato per supportare e far crescere la nostra community, 
-          offrendo vantaggi, sconti e accesso esclusivo a future collezioni e eventi.
+        The Transcendx Token is the native digital currency of our NFT ecosystem. 
+        It was designed to support the Flow ecosystem and enhance the TrascendX collection with an exclusive community currency.
         </p>
 
         <p className="token-additional-description">
@@ -35,9 +34,8 @@ const Token = () => {
           <h2>Dettagli del Token</h2>
           <ul>
             <li><strong>Contract Address:</strong> 0x6a7975d5d2d94f17dd83c7bbbf92e3b1313687fa</li>
-            <li><strong>Rete:</strong> Ethereum (o Polygon, verifica la rete effettiva del token)</li>
-            <li><strong>Supply Totale:</strong> 1.000.000.000 (Esempio, modifica se necessario)</li>
-            <li><strong>Utilizzo:</strong> Acquisto di NFT, sconti esclusivi, accesso ad eventi della community</li>
+            <li><strong>Network:</strong> EVM Flow Chain</li>
+            <li><strong>Total Supply:</strong> 600.000.000</li>
             <li><strong>Creator Address:</strong> 0x000000000000000000000002f5f660e4499047ca</li>
           </ul>
         </div>
@@ -49,7 +47,7 @@ const Token = () => {
             rel="noopener noreferrer"
             className="token-link"
           >
-            Vedi il Token su Pumpflow
+            Explore TRSCX on PumpFlow
           </a>
         </div>
       </div>
