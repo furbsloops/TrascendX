@@ -193,8 +193,6 @@ The future is just a vision coming true</p>
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 };
