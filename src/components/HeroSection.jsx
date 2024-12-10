@@ -1,11 +1,12 @@
 import React from 'react';
+import heroBg from '../assets/TrascendXDS.png';
 import './HeroSection.css'; // Importa il file CSS
 
 const HeroSection = () => {
   return (
     <div 
       className="hero-background"
-      style={{ backgroundImage: 'url(https://path.to/your/image.jpg)' }}
+      style={{ backgroundImage: `url(${heroBg})` }}
     >
       <div className="hero-content">
         <h1 className="hero-title">Scopri l'Arte Digitale Unica</h1>

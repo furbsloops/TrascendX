@@ -9,7 +9,8 @@ const Token = () => {
         
         <p className="token-description">
         The Transcendx Token is the native digital currency of our NFT ecosystem. 
-        It was designed to support the Flow ecosystem and enhance the TrascendX collection with an exclusive community currency.
+        It was designed to support the Flow ecosystem and enhance the TrascendX collection 
+        with an exclusive community currency.
         </p>
 
         <p className="token-additional-description">
@@ -31,7 +32,7 @@ const Token = () => {
         </div>
 
         <div className="token-info">
-          <h2>Dettagli del Token</h2>
+          <h2>TRSCX info</h2>
           <ul>
             <li><strong>Contract Address:</strong> 0x6a7975d5d2d94f17dd83c7bbbf92e3b1313687fa</li>
             <li><strong>Network:</strong> EVM Flow Chain</li>
