@@ -6,10 +6,13 @@ import About from './pages/About';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Token from './pages/Token';
+import CookieBanner from './components/CookieBanner'; // Assicurati che il percorso sia corretto
+
 
 function App() {
   return (
     <Router>
+      <CookieBanner />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

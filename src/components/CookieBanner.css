@@ -1,0 +1,41 @@
+.cookie-banner {
+    background: #2B373B;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Assicurati che sia sempre in cima agli altri contenuti */
+  }
+  
+  .cookie-button {
+    color: #4e503b;
+    font-size: 13px;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cookie-button:hover {
+    background: #646cff;
+    border-color: #535bf2;
+  }
+  
+  .cookie-message {
+    font-size: 14px; /* Adatta la dimensione del font a seconda delle tue necessità */
+    padding: 5px 0;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .cookie-banner {
+      background: #242424;
+      color: #ccc;
+    }
+    .cookie-button {
+      border-color: #ccc;
+    }
+  }
+  
