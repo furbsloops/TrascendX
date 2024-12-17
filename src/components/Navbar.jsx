@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <h1 className="navbar-brand">Trascendx</h1>
+        <h1 className="navbar-brand">TrascendX</h1>
         <button className="hamburger" onClick={toggleMenu} aria-label="Toggle Menu">☰</button>
         
         {/* Overlay che appare quando il menu è aperto */}
