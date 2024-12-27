@@ -548,294 +548,285 @@ const staticNfts = [
             // completare il task fino ai mintati attuali...
   {
     id: 89,
-    name: "#0004",
-    imageUrl: "https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/4"
+    name: "#0089",
+    imageUrl: "https://i.seadn.io/s/raw/files/3ee050b1205058870b2d57aaf8381de4.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/89"
   },
   {
     id: 90,
-    name: "#0005",
-    imageUrl: "https://i.seadn.io/s/raw/files/7d26b66225db0d3924344310c625e1fc.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/5"
+    name: "#0090",
+    imageUrl: "https://i.seadn.io/s/raw/files/cb524bb7bef29071e094f6244a1cccab.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/90"
   },
   {
     id: 91,
-    name: "#0001",
-    imageUrl: "https://i.seadn.io/s/raw/files/83ef83dd7aa4caac87054e85484a47a5.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/1"
+    name: "#0091",
+    imageUrl: "https://i.seadn.io/s/raw/files/838502d107b6b5828eec6d6735ee6195.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/91"
   },
   {
     id: 92,
-    name: "#0002",
-    imageUrl: "https://i.seadn.io/s/raw/files/844e9f24fcde5300504d0e1096730cbb.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/2"
+    name: "#0092",
+    imageUrl: "https://i.seadn.io/s/raw/files/caafc997bb61f59812ff02c4f1ccd858.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/92"
   },
   {
     id: 93,
-    name: "#0003",
-    imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/3"
+    name: "#0093",
+    imageUrl: "https://i.seadn.io/s/raw/files/0c7352e84668de0b92eb3c9210c7607f.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/93"
   },
-  // ... Continua così fino a 40 NFT
   {
     id: 94,
-    name: "#0004",
-    imageUrl: "https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/4"
+    name: "#0094",
+    imageUrl: "https://i.seadn.io/s/raw/files/dae03b3d8cd55deebea6fd807599ff3a.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/94"
   },
   {
     id: 95,
-    name: "#0005",
-    imageUrl: "https://i.seadn.io/s/raw/files/7d26b66225db0d3924344310c625e1fc.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/5"
+    name: "#0095",
+    imageUrl: "https://i.seadn.io/s/raw/files/dc9e4c55ab0b1c28d08013054ecd3cf9.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/95"
   },
   {
     id: 96,
-    name: "#0001",
-    imageUrl: "https://i.seadn.io/s/raw/files/83ef83dd7aa4caac87054e85484a47a5.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/1"
+    name: "#0096",
+    imageUrl: "https://i.seadn.io/s/raw/files/d9f4747716b3240e952279da9d67ad0b.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/96"
   },
   {
     id: 97,
-    name: "#0002",
-    imageUrl: "https://i.seadn.io/s/raw/files/844e9f24fcde5300504d0e1096730cbb.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/2"
+    name: "#0097",
+    imageUrl: "https://i.seadn.io/s/raw/files/a9e31f76445fdfc01f630ef936f6779e.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/97"
   },
   {
     id: 98,
-    name: "#0003",
-    imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/3"
+    name: "#0098",
+    imageUrl: "https://i.seadn.io/s/raw/files/475a87300cd219a5e198622c870c976b.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/98"
   },
-  // ... Continua così fino a 40 NFT
   {
     id: 99,
-    name: "#0004",
-    imageUrl: "https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/4"
+    name: "#0099",
+    imageUrl: "https://i.seadn.io/s/raw/files/0db6534600371c81dcd8c715993e18a8.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/99"
   },
   {
     id: 100,
-    name: "#0005",
-    imageUrl: "https://i.seadn.io/s/raw/files/7d26b66225db0d3924344310c625e1fc.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/5"
+    name: "#0100",
+    imageUrl: "https://i.seadn.io/s/raw/files/f2017d42d6ddd0bba7634bbe85355a84.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/100"
   },
   {
     id: 101,
-    name: "#0001",
-    imageUrl: "https://i.seadn.io/s/raw/files/83ef83dd7aa4caac87054e85484a47a5.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/1"
+    name: "#0101",
+    imageUrl: "https://i.seadn.io/s/raw/files/59d46d87b29d71bcb9fd7203039183f7.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/101"
   },
   {
     id: 102,
-    name: "#0002",
-    imageUrl: "https://i.seadn.io/s/raw/files/844e9f24fcde5300504d0e1096730cbb.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/2"
+    name: "#0102",
+    imageUrl: "https://i.seadn.io/s/raw/files/add4c4fba89ecbd31d25abc8bdddb023.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/102"
   },
   {
     id: 103,
-    name: "#0003",
-    imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/3"
+    name: "#0103",
+    imageUrl: "https://i.seadn.io/s/raw/files/151f38b049aa4a9c60a9a83da2038c06.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/103"
   },
-  // ... Continua così fino a 40 NFT
   {
     id: 104,
-    name: "#0004",
-    imageUrl: "https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/4"
+    name: "#0104",
+    imageUrl: "https://i.seadn.io/s/raw/files/b700059464393198345d2f16e9514afe.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/104"
   },
   {
     id: 105,
-    name: "#0005",
-    imageUrl: "https://i.seadn.io/s/raw/files/7d26b66225db0d3924344310c625e1fc.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/5"
+    name: "#0105",
+    imageUrl: "https://i.seadn.io/s/raw/files/e334d666e8a3d8013e26e13c2424fe04.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/105"
   },
   {
     id: 106,
-    name: "#0001",
-    imageUrl: "https://i.seadn.io/s/raw/files/83ef83dd7aa4caac87054e85484a47a5.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/1"
+    name: "#0106",
+    imageUrl: "https://i.seadn.io/s/raw/files/02dceb95bb0c8ea038b9b3894f974bcd.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/106"
   },
   {
     id: 107,
-    name: "#0002",
-    imageUrl: "https://i.seadn.io/s/raw/files/844e9f24fcde5300504d0e1096730cbb.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/2"
+    name: "#0107",
+    imageUrl: "https://i.seadn.io/s/raw/files/2b78758e41fa86484e5fa5d803afa1dd.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/107"
   },
   {
     id: 108,
-    name: "#0003",
-    imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/3"
+    name: "#0108",
+    imageUrl: "https://i.seadn.io/s/raw/files/671ce7545d151537e68e0dc3a7d0ef8c.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/108"
   },
-  // ... Continua così fino a 40 NFT
   {
     id: 109,
-    name: "#0004",
-    imageUrl: "https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/4"
+    name: "#0109",
+    imageUrl: "https://i.seadn.io/s/raw/files/b28dbf818d7902ddbe1837bf9d04584b.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/109"
   },
   {
     id: 110,
-    name: "#0005",
-    imageUrl: "https://i.seadn.io/s/raw/files/7d26b66225db0d3924344310c625e1fc.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/5"
+    name: "#0110",
+    imageUrl: "https://i.seadn.io/s/raw/files/618fe0f23ce22ed05ecc66071adc6c0c.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/110"
   },
   {
     id: 111,
-    name: "#0001",
-    imageUrl: "https://i.seadn.io/s/raw/files/83ef83dd7aa4caac87054e85484a47a5.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/1"
+    name: "#0111",
+    imageUrl: "https://i.seadn.io/s/raw/files/aac796dc0c8eb5a2fc5ac926b4715180.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/111"
   },
   {
     id: 112,
-    name: "#0002",
-    imageUrl: "https://i.seadn.io/s/raw/files/844e9f24fcde5300504d0e1096730cbb.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/2"
+    name: "#0112",
+    imageUrl: "https://i.seadn.io/s/raw/files/f5bc6e4f21b2fadfc68fe1855b2df86a.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/112"
   },
   {
     id: 113,
-    name: "#0003",
-    imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/3"
+    name: "#0113",
+    imageUrl: "https://i.seadn.io/s/raw/files/16746debac6653819760f954207f8288.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/113"
   },
-  // ... Continua così fino a 40 NFT
   {
     id: 114,
-    name: "#0004",
-    imageUrl: "https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/4"
+    name: "#0114",
+    imageUrl: "https://i.seadn.io/s/raw/files/a936984e80aa0cfcc465c29b18a0d215.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/114"
   },
   {
     id: 115,
-    name: "#0005",
-    imageUrl: "https://i.seadn.io/s/raw/files/7d26b66225db0d3924344310c625e1fc.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/5"
+    name: "#0115",
+    imageUrl: "https://i.seadn.io/s/raw/files/950645908b407fa8d571a9036c0714ac.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/115"
   },
   {
     id: 116,
-    name: "#0001",
-    imageUrl: "https://i.seadn.io/s/raw/files/83ef83dd7aa4caac87054e85484a47a5.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/1"
+    name: "#0116",
+    imageUrl: "https://i.seadn.io/s/raw/files/08d87ad95493b90d95a52e013d276cc7.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/116"
   },
   {
     id: 117,
-    name: "#0002",
-    imageUrl: "https://i.seadn.io/s/raw/files/844e9f24fcde5300504d0e1096730cbb.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/2"
+    name: "#0117",
+    imageUrl: "https://i.seadn.io/s/raw/files/14fade7e8bcef5a3dc66a63a31148abd.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/117"
   },
   {
     id: 118,
-    name: "#0003",
-    imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/3"
+    name: "#0118",
+    imageUrl: "https://i.seadn.io/s/raw/files/723215d24f63ed76512b55c90a008b17.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/118"
   },
-  // ... Continua così fino a 40 NFT
   {
     id: 119,
-    name: "#0004",
-    imageUrl: "https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/4"
+    name: "#0119",
+    imageUrl: "https://i.seadn.io/s/raw/files/20d1c7a49d1cd042087ece6272a2d6e0.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/119"
   },
   {
     id: 120,
-    name: "#0005",
-    imageUrl: "https://i.seadn.io/s/raw/files/7d26b66225db0d3924344310c625e1fc.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/5"
+    name: "#0120",
+    imageUrl: "https://i.seadn.io/s/raw/files/e511838cd1e34844e54f03868cca1ad7.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/120"
   },
   {
     id: 121,
-    name: "#0001",
-    imageUrl: "https://i.seadn.io/s/raw/files/83ef83dd7aa4caac87054e85484a47a5.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/1"
+    name: "#0121",
+    imageUrl: "hhttps://i.seadn.io/s/raw/files/35c086e04dc6089fe3ce0601e83b74b3.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/121"
   },
   {
     id: 122,
-    name: "#0002",
-    imageUrl: "https://i.seadn.io/s/raw/files/844e9f24fcde5300504d0e1096730cbb.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/2"
+    name: "#0122",
+    imageUrl: "https://i.seadn.io/s/raw/files/85839058d098a69657c3eff18c146676.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/122"
   },
   {
     id: 123,
-    name: "#0003",
-    imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/3"
+    name: "#0123",
+    imageUrl: "https://i.seadn.io/s/raw/files/eaf04e8eb49953d30130272ebe129ec2.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/123"
   },
-  // ... Continua così fino a 40 NFT
   {
     id: 124,
-    name: "#0004",
-    imageUrl: "https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/4"
+    name: "#0124",
+    imageUrl: "https://i.seadn.io/s/raw/files/1dd9c313b6656ed4b27a2023e4d583cf.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/124"
   },
   {
     id: 125,
-    name: "#0005",
-    imageUrl: "https://i.seadn.io/s/raw/files/7d26b66225db0d3924344310c625e1fc.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/5"
+    name: "#0125",
+    imageUrl: "https://i.seadn.io/s/raw/files/b98d3adc7628cdf801532258e7365f9e.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/125"
   },
   {
     id: 126,
-    name: "#0001",
-    imageUrl: "https://i.seadn.io/s/raw/files/83ef83dd7aa4caac87054e85484a47a5.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/1"
+    name: "#0126",
+    imageUrl: "https://i.seadn.io/s/raw/files/5e754394f4fa36b34a1fce78f2311e27.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/126"
   },
   {
     id: 127,
-    name: "#0002",
-    imageUrl: "https://i.seadn.io/s/raw/files/844e9f24fcde5300504d0e1096730cbb.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/2"
+    name: "#0127",
+    imageUrl: "https://i.seadn.io/s/raw/files/3fbe8b9f61281b52a1359813768f22d9.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/127"
   },
   {
     id: 128,
-    name: "#0003",
-    imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/3"
+    name: "#0128",
+    imageUrl: "https://i.seadn.io/s/raw/files/2260464467a0ae5263025b3c1be86ed4.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/128"
   },
-  // ... Continua così fino a 40 NFT
   {
     id: 129,
-    name: "#0004",
-    imageUrl: "https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/4"
+    name: "#0129",
+    imageUrl: "https://i.seadn.io/s/raw/files/998784bcb5754b59a656ad27a78fb075.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/129"
   },
   {
     id: 130,
-    name: "#0005",
-    imageUrl: "https://i.seadn.io/s/raw/files/7d26b66225db0d3924344310c625e1fc.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/5"
+    name: "#0130",
+    imageUrl: "https://i.seadn.io/s/raw/files/79507aef1e2d3396faa0e87ccaf36818.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/130"
   },
   {
     id: 131,
-    name: "#0001",
-    imageUrl: "https://i.seadn.io/s/raw/files/83ef83dd7aa4caac87054e85484a47a5.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/1"
+    name: "#0131",
+    imageUrl: "https://i.seadn.io/s/raw/files/36e660fdd80446547bff11a98b3d9bd3.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/131"
   },
   {
     id: 132,
-    name: "#0002",
-    imageUrl: "https://i.seadn.io/s/raw/files/844e9f24fcde5300504d0e1096730cbb.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/2"
+    name: "#0132",
+    imageUrl: "https://i.seadn.io/s/raw/files/67d10598b0760b8df66c268bf2d42cb2.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/132"
   },
   {
     id: 133,
-    name: "#0003",
-    imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/3"
+    name: "#0133",
+    imageUrl: "https://i.seadn.io/s/raw/files/4fea752a1ac973e6b54db790027ec4d0.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/133"
   },
-  // ... Continua così fino a 40 NFT
   {
     id: 134,
-    name: "#0004",
-    imageUrl: "https://i.seadn.io/s/raw/files/0bc989a3b3373b5a609881fefd1e3990.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/4"
+    name: "#0134",
+    imageUrl: "https://i.seadn.io/s/raw/files/74fc142556560fe73d49175cac728d19.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/134"
   },
   {
     id: 135,
-    name: "#0005",
-    imageUrl: "https://i.seadn.io/s/raw/files/7d26b66225db0d3924344310c625e1fc.png?auto=format&dpr=1&w=1000",
-    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/5"
+    name: "#0135",
+    imageUrl: "https://i.seadn.io/s/raw/files/409b62b69841ea3d39d420cb39ba0454.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/135"
   },
   // Copia e incolla questo blocco modificando id, name, description, imageUrl e openseaUrl per tutti i 40 NFT.
 ];
