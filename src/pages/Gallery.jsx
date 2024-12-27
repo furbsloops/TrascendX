@@ -827,7 +827,12 @@ const staticNfts = [
     imageUrl: "https://i.seadn.io/s/raw/files/409b62b69841ea3d39d420cb39ba0454.png?auto=format&dpr=1&w=1000",
     openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/135"
   },
-  // Copia e incolla questo blocco modificando id, name, description, imageUrl e openseaUrl per tutti i 40 NFT.
+  {
+    id: 136,
+    name: "#0136",
+    imageUrl: "https://i.seadn.io/s/raw/files/34779cdc3856704401446eae38e6003c.png?auto=format&dpr=1&w=1000",
+    openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/136"
+  },
 ];
 
 const Gallery = () => {
