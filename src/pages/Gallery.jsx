@@ -21,7 +21,6 @@ const staticNfts = [
     imageUrl: "https://i.seadn.io/s/raw/files/7304dcff2f600c05631c08c1c92530de.png?auto=format&dpr=1&w=1000",
     openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/3"
   },
-  // ... Continua così fino a 40 NFT
   {
     id: 4,
     name: "#0004",
@@ -741,7 +740,7 @@ const staticNfts = [
   {
     id: 121,
     name: "#0121",
-    imageUrl: "hhttps://i.seadn.io/s/raw/files/35c086e04dc6089fe3ce0601e83b74b3.png?auto=format&dpr=1&w=1000",
+    imageUrl: "https://i.seadn.io/s/raw/files/35c086e04dc6089fe3ce0601e83b74b3.png?auto=format&dpr=1&w=1000",
     openseaUrl: "https://opensea.io/assets/matic/0x55ca8c033f230ef9dd09412784948a9d4734dccf/121"
   },
   {
