@@ -8,23 +8,6 @@ const Contact = () => {
       <div className="contact-content">
         {/* Riquadri con i collegamenti */}
         <div className="link-grid">
-          {/* Token */}
-          <div className="link-card">
-            <a 
-              href="https://www.pumpflow.meme/token-detail/0x6a7975d5d2d94f17dd83c7bbbf92e3b1313687fa" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="link-wrapper"
-            >
-              <img 
-                src="https://fcljjsnuzjacwqgiqiib.supabase.co/storage/v1/object/public/token_images/images/0b8276d2-af55-4942-bc23-542c54dc284f.png" 
-                alt="Token" 
-                className="link-image"
-              />
-              <span className="link-title">PumpFlow</span>
-            </a>
-          </div>
-
           {/* OpenSea */}
           <div className="link-card">
             <a 
